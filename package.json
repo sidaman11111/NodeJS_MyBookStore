@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_mybookstore",
+  "version": "1.0.0",
+  "description": "My bookstore's website built on Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidaman11111/NodeJS_MyBookStore.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "SidaMan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidaman11111/NodeJS_MyBookStore/issues"
+  },
+  "homepage": "https://github.com/sidaman11111/NodeJS_MyBookStore#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
