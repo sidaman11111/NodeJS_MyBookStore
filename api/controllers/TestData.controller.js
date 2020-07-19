@@ -1,4 +1,4 @@
-const TestData = require(__dirname + '/models/TestData.modle');
+const TestData = require(require.main + '/models/TestData.modle');
 
 module.exports = {
     index: async function(req,res){

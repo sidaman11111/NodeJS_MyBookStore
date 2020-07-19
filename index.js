@@ -17,7 +17,7 @@ app.get('/', function(requests,response){
 // END OF ROUTE FOR INDEX PAGE  
 
 // ROUTE FOR TESTING MONGODB
-const testRouter = require(__dirname + '/api/routers/TestData.router');
+const testRouter = require(require.main + '/api/routers/TestData.router');
 app.get('/testdata', testRouter);
 // END OF ROUTE FOR INDEX PAGE  
 
