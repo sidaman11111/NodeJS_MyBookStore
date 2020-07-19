@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/sidaman11111/NodeJS_MyBookStore#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
   }
 }
